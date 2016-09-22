@@ -1,13 +1,14 @@
-{% set version = "1.2.0" %}
-{% set sha256 = "3f9b8b597e0693f5104c8fe4572fa7fa02426bb40e3bd77813ad8eae43b4b1ab" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "e2c5c40431fa2f70020c4dc963be37784aa9c78ef0579ee39deb6c0789972f37" %}
+{% set name = "depfinder" %}
 
 package:
-  name: depfinder
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: depfinder-{{ version }}.tar.gz
-  url: https://github.com/ericdill/depfinder/archive/v{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -32,6 +33,7 @@ test:
 about:
   home: http://github.com/ericdill/depfinder
   license: BSD 3-Clause
+  license_file: LICENSE
   summary: Find all the unique imports in your library 
 
 extra:
