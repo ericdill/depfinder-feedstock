@@ -1,5 +1,5 @@
-{% set version = "2.0.0" %}
-{% set sha256 = "e2c5c40431fa2f70020c4dc963be37784aa9c78ef0579ee39deb6c0789972f37" %}
+{% set version = "2.1" %}
+{% set sha256 = "86a5cad96ac87d5f162d17ebf1cac3951904d3c0d231927d675dab3928aff830" %}
 {% set name = "depfinder" %}
 
 package:
