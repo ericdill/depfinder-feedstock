@@ -11,6 +11,18 @@ Summary: Find all the unique imports in your library
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/depfinder-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/depfinder-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/depfinder-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/depfinder-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/depfinder-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/depfinder-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/depfinder/badges/version.svg)](https://anaconda.org/conda-forge/depfinder)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/depfinder/badges/downloads.svg)](https://anaconda.org/conda-forge/depfinder)
+
 Installing depfinder
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `depfinder` available on your plat
 ```
 conda search depfinder --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/depfinder-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/depfinder-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/depfinder-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/depfinder-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/depfinder-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/depfinder-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/depfinder/badges/version.svg)](https://anaconda.org/conda-forge/depfinder)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/depfinder/badges/downloads.svg)](https://anaconda.org/conda-forge/depfinder)
 
 
 Updating depfinder-feedstock
