@@ -1,5 +1,5 @@
-{% set version = "2.1" %}
-{% set sha256 = "86a5cad96ac87d5f162d17ebf1cac3951904d3c0d231927d675dab3928aff830" %}
+{% set version = "2.1.1" %}
+{% set sha256 = "d9cb6daf0e4d4297a8fd560087740d578bcd8a2d82d72dfbead4f8815f483ec8" %}
 {% set name = "depfinder" %}
 
 package:
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - depfinder = depfinder.cli:cli
