@@ -21,11 +21,11 @@ build:
 requirements:
   host:
     - pip
-    - python <=3.7
+    - python <3.7
     - setuptools
   run:
     # stdlib-list is not yet py37 compatible https://github.com/ericdill/depfinder/issues/20
-    - python <=3.7
+    - python <3.7
     - stdlib-list
     - pyyaml
 
