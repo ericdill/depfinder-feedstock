@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - depfinder = depfinder.cli:cli
@@ -21,10 +21,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python <3.7
     - setuptools
   run:
-    - python
+    # stdlib-list is not yet py37 compatible https://github.com/ericdill/depfinder/issues/20
+    - python <3.7
     - stdlib-list
     - pyyaml
 
@@ -44,3 +45,5 @@ extra:
   recipe-maintainers:
     - ericdill
     - mariusvniekerk
+    - tonyfast
+    - ocefpaf
