@@ -24,7 +24,8 @@ requirements:
     - python
     - setuptools
   run:
-    - python
+    # stdlib-list is not yet py37 compatible https://github.com/ericdill/depfinder/issues/20
+    - python <=3.7
     - stdlib-list
     - pyyaml
 
@@ -44,3 +45,5 @@ extra:
   recipe-maintainers:
     - ericdill
     - mariusvniekerk
+    - tonyfast
+    - ocefpaf
