@@ -21,7 +21,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python <=3.7
     - setuptools
   run:
     # stdlib-list is not yet py37 compatible https://github.com/ericdill/depfinder/issues/20
