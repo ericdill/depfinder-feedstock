@@ -1,5 +1,5 @@
-{% set version = "2.1.1" %}
-{% set sha256 = "d9cb6daf0e4d4297a8fd560087740d578bcd8a2d82d72dfbead4f8815f483ec8" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "2feed455b5b2184d6a174358a6d2d7c8bb52f59802941808ca5a81678fe9279f" %}
 {% set name = "depfinder" %}
 
 package:
@@ -39,7 +39,7 @@ about:
   home: http://github.com/ericdill/depfinder
   license: BSD 3-Clause
   license_file: LICENSE
-  summary: Find all the unique imports in your library 
+  summary: Find all the unique imports in your library
 
 extra:
   recipe-maintainers:
